@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/students')
+fetch('https://excel-api-xd9r.onrender.com/students')
       .then(response => response.json())
       .then(data => {console.log(data)
   let ul=document.getElementById('sel');
